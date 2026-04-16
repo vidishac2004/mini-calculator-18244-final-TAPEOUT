@@ -1,0 +1,90 @@
+//this tb currently tests the basic functionaility of the calculator without a keypad and lcd driver
+module tb_calculator_control_simple;
+
+    logic clk;
+    logic reset;
+    logic key_valid;
+    logic [3:0] decoded_key;
+    logic [2:0] key_type;
+    logic clear;
+    logic [7:0] result;
+
+    calculator_control dut (
+        .clk(clk),
+        .reset(reset),
+        .key_valid(key_valid),
+        .decoded_key(decoded_key),
+        .key_type(key_type),
+        .clear(clear),
+        .result(result)
+    );
+
+    // clock
+    initial clk = 0;
+    always #5 clk = ~clk;
+
+    initial begin
+        reset       = 1;
+        clear       = 0;
+        key_valid   = 0;
+        decoded_key = 0;
+        key_type    = 0;
+
+        #20;
+        reset = 0;
+
+        // input_A digit 1
+        #10;
+        decoded_key = 4'd1;
+        key_type    = 3'd0;   // digit
+        key_valid   = 1;
+        #10;
+        key_valid   = 0;
+
+        // input_A digit 2
+        #10;
+        decoded_key = 4'd2;
+        key_type    = 3'd0;   // digit
+        key_valid   = 1;
+        #10;
+        key_valid   = 0;
+
+        // operator +
+        #10;
+        decoded_key = 4'd3;   // divide
+        key_type    = 3'd1;   // operator
+        key_valid   = 1;
+        #10;
+        key_valid   = 0;
+
+        // input_B 3
+        #10;
+        decoded_key = 4'd3;
+        key_type    = 3'd0;   // digit
+        key_valid   = 1;
+        #10;
+        key_valid   = 0;
+
+        // operator =
+        #10;
+        decoded_key = 4'd0;
+        key_type    = 3'd2;   // equals
+        key_valid   = 1;
+        #10;
+        key_valid   = 0;
+
+        // wait for FSM + ALU
+        #150
+
+        $display("Result = %0d", result);
+
+        if (result == 8'd15)
+            $display("PASS");
+        else
+            $display("FAIL");
+
+        #20;
+        $finish;
+    end
+
+endmodule
