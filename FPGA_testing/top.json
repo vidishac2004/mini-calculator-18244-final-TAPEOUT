@@ -22227,7 +22227,7 @@
             "Q": [ 12 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z": {
+        "key_decoded_L6MUX21_Z": {
           "hide_name": 0,
           "type": "L6MUX21",
           "parameters": {
@@ -22249,7 +22249,7 @@
             "Z": [ 35 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z": {
           "hide_name": 0,
           "type": "L6MUX21",
           "parameters": {
@@ -22271,7 +22271,7 @@
             "Z": [ 37 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z": {
           "hide_name": 0,
           "type": "PFUMX",
           "parameters": {
@@ -22293,7 +22293,7 @@
             "Z": [ 39 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22318,7 +22318,7 @@
             "Z": [ 41 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22343,7 +22343,7 @@
             "Z": [ 42 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z": {
           "hide_name": 0,
           "type": "PFUMX",
           "parameters": {
@@ -22365,7 +22365,7 @@
             "Z": [ 40 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22390,7 +22390,7 @@
             "Z": [ 47 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22415,7 +22415,7 @@
             "Z": [ 48 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z": {
           "hide_name": 0,
           "type": "L6MUX21",
           "parameters": {
@@ -22437,7 +22437,7 @@
             "Z": [ 38 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z": {
           "hide_name": 0,
           "type": "PFUMX",
           "parameters": {
@@ -22459,7 +22459,7 @@
             "Z": [ 49 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22484,7 +22484,7 @@
             "Z": [ 51 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22509,7 +22509,7 @@
             "Z": [ 52 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z": {
           "hide_name": 0,
           "type": "PFUMX",
           "parameters": {
@@ -22531,7 +22531,7 @@
             "Z": [ 50 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22556,7 +22556,7 @@
             "Z": [ 53 ]
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22581,7 +22581,7 @@
             "Z": [ 54 ]
           }
         },
-        "decoded_key_raw_LUT4_Z": {
+        "key_decoded_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22606,7 +22606,7 @@
             "Z": [ 32 ]
           }
         },
-        "decoded_key_raw_LUT4_Z_1": {
+        "key_decoded_LUT4_Z_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22631,7 +22631,7 @@
             "Z": [ 36 ]
           }
         },
-        "decoded_key_raw_LUT4_Z_1_D_PFUMX_Z": {
+        "key_decoded_LUT4_Z_1_D_PFUMX_Z": {
           "hide_name": 0,
           "type": "PFUMX",
           "parameters": {
@@ -22653,7 +22653,7 @@
             "Z": [ 57 ]
           }
         },
-        "decoded_key_raw_LUT4_Z_1_D_PFUMX_Z_ALUT_LUT4_Z": {
+        "key_decoded_LUT4_Z_1_D_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22678,7 +22678,7 @@
             "Z": [ 58 ]
           }
         },
-        "decoded_key_raw_LUT4_Z_1_D_PFUMX_Z_BLUT_LUT4_Z": {
+        "key_decoded_LUT4_Z_1_D_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22703,7 +22703,7 @@
             "Z": [ 59 ]
           }
         },
-        "decoded_key_raw_LUT4_Z_C_LUT4_Z": {
+        "key_decoded_LUT4_Z_C_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22728,7 +22728,7 @@
             "Z": [ 60 ]
           }
         },
-        "decoded_key_raw_LUT4_Z_C_LUT4_Z_1": {
+        "key_decoded_LUT4_Z_C_LUT4_Z_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22753,7 +22753,7 @@
             "Z": [ 55 ]
           }
         },
-        "decoded_key_raw_PFUMX_Z": {
+        "key_decoded_PFUMX_Z": {
           "hide_name": 0,
           "type": "PFUMX",
           "parameters": {
@@ -22775,7 +22775,7 @@
             "Z": [ 34 ]
           }
         },
-        "decoded_key_raw_PFUMX_Z_ALUT_LUT4_Z": {
+        "key_decoded_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22800,7 +22800,7 @@
             "Z": [ 61 ]
           }
         },
-        "decoded_key_raw_PFUMX_Z_BLUT_LUT4_Z": {
+        "key_decoded_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22887,153 +22887,6 @@
             "Q": [ 16 ]
           }
         },
-        "key_type_raw_LUT4_Z": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000011110001"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 43 ],
-            "B": [ 20 ],
-            "C": [ 64 ],
-            "D": [ 31 ],
-            "Z": [ 63 ]
-          }
-        },
-        "key_type_raw_LUT4_Z_C_LUT4_Z": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1001011101111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 43 ],
-            "B": [ 44 ],
-            "C": [ 45 ],
-            "D": [ 46 ],
-            "Z": [ 64 ]
-          }
-        },
-        "key_type_raw_LUT4_Z_D_LUT4_Z": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1100111111111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ 19 ],
-            "C": [ 28 ],
-            "D": [ 25 ],
-            "Z": [ 31 ]
-          }
-        },
-        "key_type_raw_PFUMX_Z": {
-          "hide_name": 0,
-          "type": "PFUMX",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:138.19-138.63"
-          },
-          "port_directions": {
-            "ALUT": "input",
-            "BLUT": "input",
-            "C0": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "ALUT": [ 65 ],
-            "BLUT": [ 66 ],
-            "C0": [ 31 ],
-            "Z": [ 56 ]
-          }
-        },
-        "key_type_raw_PFUMX_Z_ALUT_LUT4_Z": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:136.39-137.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ "0" ],
-            "C": [ "0" ],
-            "D": [ "0" ],
-            "Z": [ 65 ]
-          }
-        },
-        "key_type_raw_PFUMX_Z_BLUT_LUT4_Z": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1111111111000001"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:134.39-135.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 43 ],
-            "B": [ 20 ],
-            "C": [ 21 ],
-            "D": [ 64 ],
-            "Z": [ 66 ]
-          }
-        },
         "key_valid_TRELLIS_FF_Q": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
@@ -23088,6 +22941,153 @@
             "C": [ "0" ],
             "D": [ 3 ],
             "Z": [ 33 ]
+          }
+        },
+        "type_key_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000011110001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 43 ],
+            "B": [ 20 ],
+            "C": [ 64 ],
+            "D": [ 31 ],
+            "Z": [ 63 ]
+          }
+        },
+        "type_key_LUT4_Z_C_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1001011101111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 43 ],
+            "B": [ 44 ],
+            "C": [ 45 ],
+            "D": [ 46 ],
+            "Z": [ 64 ]
+          }
+        },
+        "type_key_LUT4_Z_D_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1100111111111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 19 ],
+            "C": [ 28 ],
+            "D": [ 25 ],
+            "Z": [ 31 ]
+          }
+        },
+        "type_key_PFUMX_Z": {
+          "hide_name": 0,
+          "type": "PFUMX",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:138.19-138.63"
+          },
+          "port_directions": {
+            "ALUT": "input",
+            "BLUT": "input",
+            "C0": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "ALUT": [ 65 ],
+            "BLUT": [ 66 ],
+            "C0": [ 31 ],
+            "Z": [ 56 ]
+          }
+        },
+        "type_key_PFUMX_Z_ALUT_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:136.39-137.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ "0" ],
+            "C": [ "0" ],
+            "D": [ "0" ],
+            "Z": [ 65 ]
+          }
+        },
+        "type_key_PFUMX_Z_BLUT_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1111111111000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:134.39-135.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 43 ],
+            "B": [ 20 ],
+            "C": [ 21 ],
+            "D": [ 64 ],
+            "Z": [ 66 ]
           }
         },
         "u_keypad": {
@@ -26479,112 +26479,112 @@
             "src": "test_keypad_led_fpga.sv:7.24-7.35"
           }
         },
-        "decoded_key_raw": {
+        "key_decoded": {
           "hide_name": 0,
           "bits": [ 36, 35, 34, 32 ],
           "attributes": {
-            "src": "test_keypad_led_fpga.sv:13.17-13.32"
+            "src": "test_keypad_led_fpga.sv:13.17-13.28"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0": {
+        "key_decoded_L6MUX21_Z_D0": {
           "hide_name": 0,
           "bits": [ 37 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.66-157.68"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D0": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D0": {
           "hide_name": 0,
           "bits": [ 39 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.50-157.52"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_ALUT": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_ALUT": {
           "hide_name": 0,
           "bits": [ 41 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.22-157.24"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT": {
           "hide_name": 0,
           "bits": [ 42 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.18-157.20"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D1": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D1": {
           "hide_name": 0,
           "bits": [ 40 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.54-157.56"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_ALUT": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_ALUT": {
           "hide_name": 0,
           "bits": [ 47 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.30-157.32"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_BLUT": {
+        "key_decoded_L6MUX21_Z_D0_L6MUX21_Z_D1_PFUMX_Z_BLUT": {
           "hide_name": 0,
           "bits": [ 48 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.26-157.28"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1": {
+        "key_decoded_L6MUX21_Z_D1": {
           "hide_name": 0,
           "bits": [ 38 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.70-157.72"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D0": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D0": {
           "hide_name": 0,
           "bits": [ 49 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.58-157.60"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT": {
           "hide_name": 0,
           "bits": [ 51 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.38-157.40"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_BLUT": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_BLUT": {
           "hide_name": 0,
           "bits": [ 52 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.34-157.36"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D1": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D1": {
           "hide_name": 0,
           "bits": [ 50 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.62-157.64"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT": {
           "hide_name": 0,
           "bits": [ 53 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.46-157.48"
           }
         },
-        "decoded_key_raw_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT": {
+        "key_decoded_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT": {
           "hide_name": 0,
           "bits": [ 54 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:157.42-157.44"
           }
         },
-        "decoded_key_raw_LUT4_Z_1_D": {
+        "key_decoded_LUT4_Z_1_D": {
           "hide_name": 0,
           "bits": [ 56, 20, 31, 57 ],
           "attributes": {
@@ -26592,21 +26592,21 @@
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
           }
         },
-        "decoded_key_raw_LUT4_Z_1_D_PFUMX_Z_ALUT": {
+        "key_decoded_LUT4_Z_1_D_PFUMX_Z_ALUT": {
           "hide_name": 0,
           "bits": [ 58 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
           }
         },
-        "decoded_key_raw_LUT4_Z_1_D_PFUMX_Z_BLUT": {
+        "key_decoded_LUT4_Z_1_D_PFUMX_Z_BLUT": {
           "hide_name": 0,
           "bits": [ 59 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
-        "decoded_key_raw_LUT4_Z_C": {
+        "key_decoded_LUT4_Z_C": {
           "hide_name": 0,
           "bits": [ 20, 21, 60, 55, 31 ],
           "attributes": {
@@ -26614,14 +26614,14 @@
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
           }
         },
-        "decoded_key_raw_PFUMX_Z_ALUT": {
+        "key_decoded_PFUMX_Z_ALUT": {
           "hide_name": 0,
           "bits": [ 61 ],
           "attributes": {
             "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
           }
         },
-        "decoded_key_raw_PFUMX_Z_BLUT": {
+        "key_decoded_PFUMX_Z_BLUT": {
           "hide_name": 0,
           "bits": [ 62 ],
           "attributes": {
@@ -26633,43 +26633,6 @@
           "bits": [ 16, 17, "0" ],
           "attributes": {
             "src": "test_keypad_led_fpga.sv:8.24-8.32"
-          }
-        },
-        "key_type_raw": {
-          "hide_name": 0,
-          "bits": [ 56, 63, "0" ],
-          "attributes": {
-            "src": "test_keypad_led_fpga.sv:14.17-14.29"
-          }
-        },
-        "key_type_raw_LUT4_Z_C": {
-          "hide_name": 0,
-          "bits": [ 43, 20, 21, 64, 31 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
-          }
-        },
-        "key_type_raw_LUT4_Z_D": {
-          "hide_name": 0,
-          "bits": [ 43, 44, 45, 46, 20, 21, 31 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
-          }
-        },
-        "key_type_raw_PFUMX_Z_ALUT": {
-          "hide_name": 0,
-          "bits": [ 65 ],
-          "attributes": {
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
-          }
-        },
-        "key_type_raw_PFUMX_Z_BLUT": {
-          "hide_name": 0,
-          "bits": [ 66 ],
-          "attributes": {
-            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
         "key_valid": {
@@ -26697,6 +26660,43 @@
           "bits": [ 4, 5, 6, 7 ],
           "attributes": {
             "src": "test_keypad_led_fpga.sv:4.24-4.27"
+          }
+        },
+        "type_key": {
+          "hide_name": 0,
+          "bits": [ 56, 63, "0" ],
+          "attributes": {
+            "src": "test_keypad_led_fpga.sv:14.17-14.25"
+          }
+        },
+        "type_key_LUT4_Z_C": {
+          "hide_name": 0,
+          "bits": [ 43, 20, 21, 64, 31 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
+          }
+        },
+        "type_key_LUT4_Z_D": {
+          "hide_name": 0,
+          "bits": [ 43, 44, 45, 46, 20, 21, 31 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
+          }
+        },
+        "type_key_PFUMX_Z_ALUT": {
+          "hide_name": 0,
+          "bits": [ 65 ],
+          "attributes": {
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
+          }
+        },
+        "type_key_PFUMX_Z_BLUT": {
+          "hide_name": 0,
+          "bits": [ 66 ],
+          "attributes": {
+            "src": "/Users/vidishachopra/Downloads/oss-cad-suite/libexec/../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
         "u_keypad.clk": {

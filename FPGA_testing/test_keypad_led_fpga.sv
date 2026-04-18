@@ -10,9 +10,9 @@ module keypad_fsm_to_led(
 );
 
     logic rst;
-    logic [3:0] decoded_key_raw;
-    logic [2:0] key_type_raw;
-    logic       key_valid_raw;
+    logic [3:0] key_decoded;
+    logic [2:0] type_key;
+    logic       valid_key;
 
     assign rst = ~reset;
 
@@ -21,9 +21,9 @@ module keypad_fsm_to_led(
             .reset(rst),
             .row(row),
             .col(col),
-            .decoded_key(decoded_key_raw),
-            .key_type(key_type_raw),
-            .key_valid(key_valid_raw)
+            .decoded_key(key_decoded),
+            .key_type(type_key),
+            .key_valid(valid_key)
         );
 
         always_ff @(posedge clk or posedge rst) begin
@@ -31,9 +31,9 @@ module keypad_fsm_to_led(
                 decoded_key <= 4'd0;
                 key_type    <= 3'd0;
                 key_valid   <= 1'b0;
-            end else if (key_valid_raw) begin
-                decoded_key <= decoded_key_raw;
-                key_type    <= key_type_raw;
+            end else if (valid_key) begin
+                decoded_key <= key_decoded;
+                key_type    <= type_key;
                 key_valid   <= 1'b1;
             end
         end
