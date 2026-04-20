@@ -325,16 +325,16 @@ module calculator_FSM(
 );
 
     typedef enum logic [3:0] {
-        IDLE,
-        INPUT_A,
-        OP_SEL,
-        INPUT_B,
-        LOAD_B,
-        START_ALU,
-        EXECUTE,
-        LOAD_RESULT,
-        DISPLAY,
-        ERROR_STATE
+        IDLE        = 4'd0,
+        INPUT_A     = 4'd1,
+        OP_SEL      = 4'd2,
+        INPUT_B     = 4'd3,
+        LOAD_B      = 4'd4,
+        START_ALU   = 4'd5,
+        EXECUTE     = 4'd6,
+        LOAD_RESULT = 4'd7,
+        DISPLAY     = 4'd8,
+        ERROR_STATE = 4'd9
     } state_t;
 
     state_t state, next_state;
@@ -353,19 +353,10 @@ module calculator_FSM(
     end
 
     always_comb begin
-        next_state       = state;
-        load_A           = 1'b0;
-        load_B           = 1'b0;
-        load_result      = 1'b0;
-        load_op          = 1'b0;
-        start_alu        = 1'b0;
-        clr_input_buffer = 1'b0;
-        en_buffer        = 1'b0;
-        op_sel           = 3'b000;
+        next_state = state;
 
         if (clear) begin
-            next_state       = IDLE;
-            clr_input_buffer = 1'b1;
+            next_state = IDLE;
         end
         else begin
             case (state)
@@ -425,7 +416,23 @@ module calculator_FSM(
                     next_state = IDLE;
                 end
             endcase
+        end
+    end
 
+    always_comb begin
+        load_A           = 1'b0;
+        load_B           = 1'b0;
+        load_result      = 1'b0;
+        load_op          = 1'b0;
+        start_alu        = 1'b0;
+        clr_input_buffer = 1'b0;
+        en_buffer        = 1'b0;
+        op_sel           = 3'b000;
+
+        if (clear) begin
+            clr_input_buffer = 1'b1;
+        end
+        else begin
             case (state)
                 IDLE: begin
                     if (key_valid && key_type == 3'd0)
@@ -464,6 +471,9 @@ module calculator_FSM(
                         clr_input_buffer = 1'b1;
                 end
 
+                ERROR_STATE: begin
+                end
+
                 default: begin
                 end
             endcase
@@ -483,13 +493,23 @@ module input_buffer(
     output logic [7:0] buffer_value
 );
 
+    logic [3:0] last_key;
+
     always_ff @(posedge clk or posedge reset) begin
-        if (reset)
+        if (reset) begin
             buffer_value <= 8'd0;
-        else if (clr_input_buffer)
+            last_key     <= 4'hF;
+        end
+        else if (clr_input_buffer) begin
             buffer_value <= 8'd0;
-        else if (en_buffer && key_valid && key_type == 3'd0)
-            buffer_value <= {4'b0, decoded_key};
+            last_key     <= 4'hF;
+        end
+        else if (en_buffer && key_valid && key_type == 3'd0) begin
+            if (decoded_key != last_key) begin
+                buffer_value <= {buffer_value[3:0], decoded_key};
+                last_key     <= decoded_key;
+            end
+        end
     end
 
 endmodule
@@ -508,6 +528,114 @@ module operand_regs(
     output logic [7:0] result
 );
 
+    logic [7:0] operand_value;
+
+    always_comb begin
+        case (buffer_value)
+            8'h00: operand_value = 8'd0;
+            8'h01: operand_value = 8'd1;
+            8'h02: operand_value = 8'd2;
+            8'h03: operand_value = 8'd3;
+            8'h04: operand_value = 8'd4;
+            8'h05: operand_value = 8'd5;
+            8'h06: operand_value = 8'd6;
+            8'h07: operand_value = 8'd7;
+            8'h08: operand_value = 8'd8;
+            8'h09: operand_value = 8'd9;
+            8'h10: operand_value = 8'd10;
+            8'h11: operand_value = 8'd11;
+            8'h12: operand_value = 8'd12;
+            8'h13: operand_value = 8'd13;
+            8'h14: operand_value = 8'd14;
+            8'h15: operand_value = 8'd15;
+            8'h16: operand_value = 8'd16;
+            8'h17: operand_value = 8'd17;
+            8'h18: operand_value = 8'd18;
+            8'h19: operand_value = 8'd19;
+            8'h20: operand_value = 8'd20;
+            8'h21: operand_value = 8'd21;
+            8'h22: operand_value = 8'd22;
+            8'h23: operand_value = 8'd23;
+            8'h24: operand_value = 8'd24;
+            8'h25: operand_value = 8'd25;
+            8'h26: operand_value = 8'd26;
+            8'h27: operand_value = 8'd27;
+            8'h28: operand_value = 8'd28;
+            8'h29: operand_value = 8'd29;
+            8'h30: operand_value = 8'd30;
+            8'h31: operand_value = 8'd31;
+            8'h32: operand_value = 8'd32;
+            8'h33: operand_value = 8'd33;
+            8'h34: operand_value = 8'd34;
+            8'h35: operand_value = 8'd35;
+            8'h36: operand_value = 8'd36;
+            8'h37: operand_value = 8'd37;
+            8'h38: operand_value = 8'd38;
+            8'h39: operand_value = 8'd39;
+            8'h40: operand_value = 8'd40;
+            8'h41: operand_value = 8'd41;
+            8'h42: operand_value = 8'd42;
+            8'h43: operand_value = 8'd43;
+            8'h44: operand_value = 8'd44;
+            8'h45: operand_value = 8'd45;
+            8'h46: operand_value = 8'd46;
+            8'h47: operand_value = 8'd47;
+            8'h48: operand_value = 8'd48;
+            8'h49: operand_value = 8'd49;
+            8'h50: operand_value = 8'd50;
+            8'h51: operand_value = 8'd51;
+            8'h52: operand_value = 8'd52;
+            8'h53: operand_value = 8'd53;
+            8'h54: operand_value = 8'd54;
+            8'h55: operand_value = 8'd55;
+            8'h56: operand_value = 8'd56;
+            8'h57: operand_value = 8'd57;
+            8'h58: operand_value = 8'd58;
+            8'h59: operand_value = 8'd59;
+            8'h60: operand_value = 8'd60;
+            8'h61: operand_value = 8'd61;
+            8'h62: operand_value = 8'd62;
+            8'h63: operand_value = 8'd63;
+            8'h64: operand_value = 8'd64;
+            8'h65: operand_value = 8'd65;
+            8'h66: operand_value = 8'd66;
+            8'h67: operand_value = 8'd67;
+            8'h68: operand_value = 8'd68;
+            8'h69: operand_value = 8'd69;
+            8'h70: operand_value = 8'd70;
+            8'h71: operand_value = 8'd71;
+            8'h72: operand_value = 8'd72;
+            8'h73: operand_value = 8'd73;
+            8'h74: operand_value = 8'd74;
+            8'h75: operand_value = 8'd75;
+            8'h76: operand_value = 8'd76;
+            8'h77: operand_value = 8'd77;
+            8'h78: operand_value = 8'd78;
+            8'h79: operand_value = 8'd79;
+            8'h80: operand_value = 8'd80;
+            8'h81: operand_value = 8'd81;
+            8'h82: operand_value = 8'd82;
+            8'h83: operand_value = 8'd83;
+            8'h84: operand_value = 8'd84;
+            8'h85: operand_value = 8'd85;
+            8'h86: operand_value = 8'd86;
+            8'h87: operand_value = 8'd87;
+            8'h88: operand_value = 8'd88;
+            8'h89: operand_value = 8'd89;
+            8'h90: operand_value = 8'd90;
+            8'h91: operand_value = 8'd91;
+            8'h92: operand_value = 8'd92;
+            8'h93: operand_value = 8'd93;
+            8'h94: operand_value = 8'd94;
+            8'h95: operand_value = 8'd95;
+            8'h96: operand_value = 8'd96;
+            8'h97: operand_value = 8'd97;
+            8'h98: operand_value = 8'd98;
+            8'h99: operand_value = 8'd99;
+            default: operand_value = {4'b0, buffer_value[3:0]};
+        endcase
+    end
+
     always_ff @(posedge clk or posedge reset) begin
         if (reset) begin
             A      <= 8'd0;
@@ -521,9 +649,9 @@ module operand_regs(
         end
         else begin
             if (load_A)
-                A <= buffer_value;
+                A <= operand_value;
             if (load_B)
-                B <= buffer_value;
+                B <= operand_value;
             if (load_result)
                 result <= alu_result;
         end
